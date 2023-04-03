@@ -18,6 +18,7 @@
 		E57A8CD329D5C4BB00A2E5C2 /* SpriteKitARPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57A8CD229D5C4BB00A2E5C2 /* SpriteKitARPGTests.swift */; };
 		E57A8CDD29D5C4BC00A2E5C2 /* SpriteKitARPGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57A8CDC29D5C4BC00A2E5C2 /* SpriteKitARPGUITests.swift */; };
 		E57A8CDF29D5C4BC00A2E5C2 /* SpriteKitARPGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57A8CDE29D5C4BC00A2E5C2 /* SpriteKitARPGUITestsLaunchTests.swift */; };
+		E57A8CED29DB5A3000A2E5C2 /* BaseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57A8CEC29DB5A3000A2E5C2 /* BaseItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		E57A8CD829D5C4BC00A2E5C2 /* SpriteKitARPGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitARPGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57A8CDC29D5C4BC00A2E5C2 /* SpriteKitARPGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitARPGUITests.swift; sourceTree = "<group>"; };
 		E57A8CDE29D5C4BC00A2E5C2 /* SpriteKitARPGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitARPGUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E57A8CEC29DB5A3000A2E5C2 /* BaseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		E57A8CB729D5C4B900A2E5C2 /* SpriteKitARPG */ = {
 			isa = PBXGroup;
 			children = (
+				E57A8CEB29DB5A0C00A2E5C2 /* Items */,
 				E57A8CB829D5C4B900A2E5C2 /* AppDelegate.swift */,
 				E57A8CBA29D5C4B900A2E5C2 /* GameScene.sks */,
 				E57A8CBC29D5C4B900A2E5C2 /* Actions.sks */,
@@ -129,6 +132,14 @@
 				E57A8CDE29D5C4BC00A2E5C2 /* SpriteKitARPGUITestsLaunchTests.swift */,
 			);
 			path = SpriteKitARPGUITests;
+			sourceTree = "<group>";
+		};
+		E57A8CEB29DB5A0C00A2E5C2 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				E57A8CEC29DB5A3000A2E5C2 /* BaseItem.swift */,
+			);
+			path = Items;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 				E57A8CBF29D5C4B900A2E5C2 /* GameScene.swift in Sources */,
 				E57A8CC129D5C4B900A2E5C2 /* GameViewController.swift in Sources */,
 				E57A8CB929D5C4B900A2E5C2 /* AppDelegate.swift in Sources */,
+				E57A8CED29DB5A3000A2E5C2 /* BaseItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
